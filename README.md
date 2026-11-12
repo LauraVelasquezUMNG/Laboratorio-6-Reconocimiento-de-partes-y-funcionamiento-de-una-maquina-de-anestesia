@@ -57,7 +57,7 @@ Se contó el número de fallas o mensajes de alarma descritos en cada sección d
 | 4 | Suministro de gases y gas motriz | 8 | Fugas, manómetros e interruptores de presión |
 | 5 | Circuito del paciente | 5 | Reúne más de 20 causas posibles, casi todas fugas |
 | 6 | Módulo de control auxiliar | 3 | Errores de hardware y pérdida de comunicación |
-| 7 | Medición del volumen corriente | 1 | Una falla con 11 causas posibles |
+| 7 | Medición del volumen corriente | 1 | Imprecisión del volumen corriente, con 11 causas posibles |
 
 El criterio de conteo (fallas descritas por sección) favorece a los subsistemas que el manual documenta mediante alarmas, como el ventilador. Si se contaran las causas posibles, el circuito del paciente pasaría a ocupar uno de los primeros lugares.
 
