@@ -89,8 +89,8 @@ Las máquinas de anestesia concentran en un solo equipo el suministro de gases, 
 
 ### 6. Referencias
 
-[1] Shenzhen Mindray Bio-Medical Electronics Co., Ltd., *WATO EX-20/30/35 Anesthesia Machine Service Manual*, Rev. 6.0, nov. 2012. [En línea]. Disponible en: https://isurplus.com.au/manuals/Mindray%20WATO%20ex35%20Service%20Manual.pdf. [Consultado: 12-nov-2026].
+[1] Shenzhen Mindray Bio-Medical Electronics Co., Ltd., *WATO EX-20/30/35 Anesthesia Machine Service Manual*, Rev. 6.0, nov. 2012. [En línea]. Disponible en: https://isurplus.com.au/manuals/Mindray%20WATO%20ex35%20Service%20Manual.pdf.
 
-[2] Mindray, *Manual del operador WATO EX-20*. [En línea]. Disponible en: https://es.scribd.com/document/660017883/tuxdoc-com-manual-usuario-mindray-wato-ex-20. [Consultado: 12-nov-2026].
+[2] Mindray, *Manual del operador WATO EX-20*. [En línea]. Disponible en: https://es.scribd.com/document/660017883/tuxdoc-com-manual-usuario-mindray-wato-ex-20. 
 
-[3] Mindray, "WATO EX-35 Anesthesia Machine". [En línea]. Disponible en: https://www.mindray.com/in/products/anesthesia/wato-ex-35/. [Consultado: 12-nov-2026].
+[3] Mindray, "WATO EX-35 Anesthesia Machine". [En línea]. Disponible en: https://www.mindray.com/in/products/anesthesia/wato-ex-35/.
