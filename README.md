@@ -65,7 +65,7 @@ El criterio de conteo (fallas descritas por sección) favorece a los subsistemas
 
 **Pregunta 1: ¿Qué tipos de anestésicos son los más usados en cirugía?**
 
-En cirugía se emplean tres grupos de anestésicos, que suelen combinarse según el procedimiento. Los anestésicos inhalatorios, que se administran desde la máquina de anestesia mediante el vaporizador, incluyen los halogenados (sevoflurano, isoflurano y desflurano) y el óxido nitroso (N<sub>2</sub>O), que se suministra como gas desde el flujómetro y no desde el vaporizador. Los anestésicos intravenosos, como el propofol, se usan para la inducción y el mantenimiento de la anestesia general. Los anestésicos locales, como la lidocaína y la bupivacaína, se emplean en técnicas locales y regionales, que bloquean la sensibilidad de una zona del cuerpo sin producir inconsciencia.
+En cirugía se emplean tres grupos de anestésicos, que suelen combinarse según el procedimiento. Los anestésicos inhalatorios, que se administran desde la máquina de anestesia mediante el vaporizador, incluyen los halogenados (sevoflurano, isoflurano y desflurano) y el óxido nitroso (N<sub>2</sub>O) [4], que se suministra como gas desde el flujómetro y no desde el vaporizador [1]. Los anestésicos intravenosos, como el propofol, se usan para la inducción y el mantenimiento de la anestesia general [4]. Los anestésicos locales, como la lidocaína y la bupivacaína, se emplean en técnicas locales y regionales, que bloquean la sensibilidad de una zona del cuerpo sin producir inconsciencia [5].
 
 En el caso de la WATO EX-20, la documentación del fabricante indica que sus posiciones de vaporizador admiten halotano, enflurano, isoflurano, sevoflurano y desflurano [2], de modo que la máquina cubre los agentes inhalatorios de uso habitual. Las máquinas de anestesia trabajan con los anestésicos inhalatorios; los intravenosos y los locales se administran por otras vías.
 
@@ -89,8 +89,14 @@ Las máquinas de anestesia concentran en un solo equipo el suministro de gases, 
 
 ### 6. Referencias
 
-[1] Shenzhen Mindray Bio-Medical Electronics Co., Ltd., *WATO EX-20/30/35 Anesthesia Machine Service Manual*, Rev. 6.0, nov. 2012. [En línea]. Disponible en: https://isurplus.com.au/manuals/Mindray%20WATO%20ex35%20Service%20Manual.pdf.
+[1] Shenzhen Mindray Bio-Medical Electronics Co., Ltd., *WATO EX-20/30/35 Anesthesia Machine Service Manual*, Rev. 6.0, nov. 2012. [En línea]. Disponible en: https://isurplus.com.au/manuals/Mindray%20WATO%20ex35%20Service%20Manual.pdf. 
 
 [2] Mindray, *Manual del operador WATO EX-20*. [En línea]. Disponible en: https://es.scribd.com/document/660017883/tuxdoc-com-manual-usuario-mindray-wato-ex-20. 
 
-[3] Mindray, "WATO EX-35 Anesthesia Machine". [En línea]. Disponible en: https://www.mindray.com/in/products/anesthesia/wato-ex-35/.
+[3] Mindray, "WATO EX-35 Anesthesia Machine". [En línea]. Disponible en: https://www.mindray.com/in/products/anesthesia/wato-ex-35/. 
+
+[4] StatPearls Publishing, "General Anesthesia for Surgeons", en *StatPearls [Internet]*. Treasure Island (FL): StatPearls Publishing. [En línea]. Disponible en: https://www.ncbi.nlm.nih.gov/books/NBK493199/.
+
+[5] StatPearls Publishing, "Topical, Local, and Regional Anesthesia and Anesthetics", en *StatPearls [Internet]*. Treasure Island (FL): StatPearls Publishing. [En línea]. Disponible en: https://ncbi.nlm.nih.gov/books/NBK430894.
+
+
