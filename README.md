@@ -50,11 +50,13 @@ $$\mathrm{CO_2 + Ca(OH)_2 \rightarrow CaCO_3 + H_2O + calor}$$
 
 - **Ubicación:** dentro de la campana transparente graduada (300 a 1500 mL) en la parte superior del sistema respiratorio.
 - **Función:** en ventilación mecánica, el gas impulsor comprime el fuelle desde el exterior y este entrega el volumen corriente al paciente, manteniendo separados el gas impulsor y el gas del paciente. En la espiración el fuelle se rellena con el gas espirado. La escala de la campana permite estimar visualmente el volumen entregado.
-- **Aclaración:** la bolsa verde colgada del brazo es la **bolsa de ventilación manual (reservorio)**, no el fuelle.
+
+> [!NOTE]
+> La bolsa verde colgada del brazo es la **bolsa de ventilación manual (reservorio)**, no el fuelle.
 
 ### 2. Mensaje "Batería en uso" con el paciente conectado
 
-<img width="800" height="1200" alt="image" src="https://github.com/user-attachments/assets/c3423fd9-b05f-4ef9-844f-cb73ac96852f" />
+<img width="500" height="700" alt="image" src="https://github.com/user-attachments/assets/c3423fd9-b05f-4ef9-844f-cb73ac96852f" />
 
 El mensaje indica que se perdió la alimentación de red (el LED de AC se apaga y el de batería parpadea) y que el equipo opera con su batería interna. Con el paciente conectado se debe:
 
@@ -63,8 +65,6 @@ El mensaje indica que se perdió la alimentación de red (el LED de AC se apaga 
 3. **Restablecer la corriente alterna** y confirmar que el LED de AC se enciende y el mensaje desaparece.
 4. Si no se restablece, vigilar el estado de la batería y tener disponible la ventilación manual (bolsa autoinflable). El fabricante indica no usar el sistema si aparecen alarmas de batería baja.
 5. Si el mensaje persiste con la red normal, avisar a mantenimiento biomédico: el manual de servicio indica revisar la entrada de red y la placa de alimentación.
-
----
 
 ### 3. Frecuencia de reemplazo del recipiente absorbente de CO₂
 
@@ -75,8 +75,6 @@ El manual no fija un intervalo de calendario: el reemplazo se hace **según el e
 - Cambiar la esponja del recipiente en cada reemplazo.
 
 <img width="616" height="917" alt="image" src="https://github.com/user-attachments/assets/b84c68df-1523-49dc-a3ae-6af8e2e9f831" />
-
----
 
 ### 4. Verificación de fuga en el cilindro de alta presión
 
@@ -105,7 +103,8 @@ El sensor aporta una verificación independiente de la FiO₂, por lo que es la 
 
 Es el sistema de **succión (aspiración)** del equipo. Usa aire o O₂ de la toma central como gas impulsor y, mediante el efecto Venturi, genera una presión negativa regulable en el regulador de vacío. Se utiliza para aspirar fluidos y secreciones de la vía aérea del paciente (garganta) y mantenerla despejada. Consta del cuerpo de succión, el regulador y el frasco colector.
 
-> Nota: no confundir con el AGSS, que es el sistema de evacuación de gases residuales (su flotador debe quedar entre las líneas Min y Max).
+> [!NOTE]
+> No confundir con el AGSS, que es el sistema de evacuación de gases residuales (su flotador debe quedar entre las líneas Min y Max).
 
 > ### Parte C
 
