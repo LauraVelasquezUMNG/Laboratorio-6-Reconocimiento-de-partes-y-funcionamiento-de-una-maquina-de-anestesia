@@ -14,7 +14,99 @@ Comprender el funcionamiento de una máquina de anestesia y la relevancia de su 
 - Identificar los componentes principales de la máquina de anestesia WATO EX-20 (vaporizador, válvula APL, recipiente absorbente de CO2 y fuelle) y la función que cumple cada uno dentro del sistema.
 - Describir el recorrido de los gases desde su suministro hasta el paciente, y los modos de operación del ventilador, a partir de la consulta de los manuales del equipo.
 - Analizar las fallas que pueden presentarse en cada subsistema y sus causas, y reconocer cómo las labores de inspección y mantenimiento ayudan a prevenirlas.
-  
+
+> ### Parte B
+
+### 1. Identificación y ubicación de partes
+
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/9a80eb4c-3563-43ef-af27-76c2a5303825" />
+
+#### a. Vaporizador
+
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/3a23308b-f8c3-4a56-8e0e-ec86f3c87d25" />
+
+- **Ubicación:** se monta en el riel de vaporizadores del panel central, a la derecha de los flujómetros y bajo la pantalla. En las fotografías tomadas el riel está **sin vaporizador instalado**; solo se aprecian los puertos de montaje.
+- **Función:** convierte el anestésico volátil líquido (p. ej., sevoflurano, isoflurano) en vapor y lo mezcla con el flujo de gas fresco en una concentración regulada con el dial. Cada vaporizador es específico para un agente. La lista de verificación del equipo indica que solo debe encenderse un vaporizador a la vez.
+
+#### b. Válvula APL
+
+<img width="800" height="1200" alt="image" src="https://github.com/user-attachments/assets/95109393-3c8b-470d-a6bf-0de0f27cfd5e" />
+
+- **Ubicación:** perilla gris rotulada "APL" con escala en cmH₂O, sobre el módulo del sistema respiratorio, junto a la palanca negra selectora de modo manual/mecánico y al manómetro de presión de vía aérea.
+- **Función:** limita la presión máxima en el circuito durante la ventilación manual o espontánea. Cuando la presión supera el valor fijado, el gas excedente se libera hacia el sistema de evacuación de gases (AGSS). Con la perilla abierta (valor mínimo) el paciente respira espontáneamente; al cerrarla parcialmente se puede asistir la ventilación con la bolsa.
+
+#### c. Recipiente absorbente de CO₂
+
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/af1d3c92-fa7f-454c-9b6d-40f0dc1f466d" />
+
+- **Ubicación:** recipiente transparente bajo el módulo del sistema respiratorio, con una línea de nivel **MAX**.
+- **Función:** contiene el absorbente (cal sodada) que retira el CO₂ espirado por el paciente. Esto permite reutilizar el gas del circuito (sistema circular) sin acumular CO₂. La reacción global es:
+
+$$\mathrm{CO_2 + Ca(OH)_2 \rightarrow CaCO_3 + H_2O + calor}$$
+
+#### d. Fuelle
+
+<img width="800" height="1200" alt="image" src="https://github.com/user-attachments/assets/5dcf577e-1177-4bfc-8fe2-ec035b95b0aa" />
+
+- **Ubicación:** dentro de la campana transparente graduada (300 a 1500 mL) en la parte superior del sistema respiratorio.
+- **Función:** en ventilación mecánica, el gas impulsor comprime el fuelle desde el exterior y este entrega el volumen corriente al paciente, manteniendo separados el gas impulsor y el gas del paciente. En la espiración el fuelle se rellena con el gas espirado. La escala de la campana permite estimar visualmente el volumen entregado.
+- **Aclaración:** la bolsa verde colgada del brazo es la **bolsa de ventilación manual (reservorio)**, no el fuelle.
+
+### 2. Mensaje "Batería en uso" con el paciente conectado
+
+<img width="800" height="1200" alt="image" src="https://github.com/user-attachments/assets/c3423fd9-b05f-4ef9-844f-cb73ac96852f" />
+
+El mensaje indica que se perdió la alimentación de red (el LED de AC se apaga y el de batería parpadea) y que el equipo opera con su batería interna. Con el paciente conectado se debe:
+
+1. **Priorizar al paciente:** mantener la ventilación y la monitorización, y avisar al equipo quirúrgico.
+2. **Verificar la alimentación de red:** cable conectado a la máquina y al tomacorriente, y estado de la toma.
+3. **Restablecer la corriente alterna** y confirmar que el LED de AC se enciende y el mensaje desaparece.
+4. Si no se restablece, vigilar el estado de la batería y tener disponible la ventilación manual (bolsa autoinflable). El fabricante indica no usar el sistema si aparecen alarmas de batería baja.
+5. Si el mensaje persiste con la red normal, avisar a mantenimiento biomédico: el manual de servicio indica revisar la entrada de red y la placa de alimentación.
+
+---
+
+### 3. Frecuencia de reemplazo del recipiente absorbente de CO₂
+
+El manual no fija un intervalo de calendario: el reemplazo se hace **según el estado del absorbente**.
+
+- Inspeccionar el color antes de cada uso (verificación diaria) y reemplazar de inmediato si hay cambio de color evidente.
+- Reemplazar también si el absorbente se ha desecado y apoyarse en la capnografía para detectar agotamiento.
+- Cambiar la esponja del recipiente en cada reemplazo.
+
+<img width="616" height="917" alt="image" src="https://github.com/user-attachments/assets/b84c68df-1523-49dc-a3ae-6af8e2e9f831" />
+
+---
+
+### 4. Verificación de fuga en el cilindro de alta presión
+
+Procedimiento según el manual de servicio (sección "Cylinder High Pressure Leak Test"):
+
+1. Colocar el interruptor del sistema en ON y suspender el suministro de la toma central del gas a probar.
+2. Cerrar el flujómetro del gas (y el flujómetro de O₂ auxiliar, si existe).
+3. Abrir lentamente la válvula del cilindro y registrar la presión.
+4. Cerrar la válvula del cilindro.
+5. Registrar la presión después de 1 minuto.
+6. Si la caída supera el límite del manual, hay fuga.
+7. Repetir para cada cilindro. Para N₂O, restablecer el suministro de O₂ al terminar.
+
+<img width="599" height="896" alt="image" src="https://github.com/user-attachments/assets/bdfe9f98-9663-4985-832a-f473f1b55e0f" />
+
+### 5. Influencia del sensor de O₂ en la prueba del sistema de control de flujo
+
+**Sí influye.** El manual de servicio separa la prueba en dos escenarios:
+
+- **Sin sensor de O₂:** el sistema de enlace O₂/N₂O (Link) se verifica solo con los flujómetros, comparando los flujos de O₂ y N₂O contra los valores permitidos del manual al subir el N₂O y al bajar el O₂.
+- **Con sensor de O₂:** antes se debe hacer la prueba de monitoreo y alarmas de O₂, con el sensor calibrado (≈21 % en aire ambiente y >97 % tras 100 % de O₂, según la lista de verificación). Luego el enlace se comprueba también con la concentración inspirada medida, que confirma la mezcla realmente entregada y no solo el flujo.
+
+El sensor aporta una verificación independiente de la FiO₂, por lo que es la forma más segura de confirmar que no se administra una mezcla hipóxica.
+
+### 6. Sistema de presión negativa
+
+Es el sistema de **succión (aspiración)** del equipo. Usa aire o O₂ de la toma central como gas impulsor y, mediante el efecto Venturi, genera una presión negativa regulable en el regulador de vacío. Se utiliza para aspirar fluidos y secreciones de la vía aérea del paciente (garganta) y mantenerla despejada. Consta del cuerpo de succión, el regulador y el frasco colector.
+
+> Nota: no confundir con el AGSS, que es el sistema de evacuación de gases residuales (su flotador debe quedar entre las líneas Min y Max).
+
 > ### Parte C
 
 ### 1. Procedimiento General
