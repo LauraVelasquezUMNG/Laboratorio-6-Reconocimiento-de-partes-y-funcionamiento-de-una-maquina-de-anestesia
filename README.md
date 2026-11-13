@@ -19,11 +19,11 @@ Comprender el funcionamiento de una máquina de anestesia y la relevancia de su 
 
 ### 1. Identificación y ubicación de partes
 
-<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/9a80eb4c-3563-43ef-af27-76c2a5303825" />
+<img width="500" height="700" alt="image" src="https://github.com/user-attachments/assets/9a80eb4c-3563-43ef-af27-76c2a5303825" />
 
 #### a. Vaporizador
 
-<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/3a23308b-f8c3-4a56-8e0e-ec86f3c87d25" />
+<img width="500" height="700" alt="image" src="https://github.com/user-attachments/assets/3a23308b-f8c3-4a56-8e0e-ec86f3c87d25" />
 
 - **Ubicación:** se monta en el riel de vaporizadores del panel central, a la derecha de los flujómetros y bajo la pantalla. En las fotografías tomadas el riel está **sin vaporizador instalado**; solo se aprecian los puertos de montaje.
 - **Función:** convierte el anestésico volátil líquido (p. ej., sevoflurano, isoflurano) en vapor y lo mezcla con el flujo de gas fresco en una concentración regulada con el dial. Cada vaporizador es específico para un agente. La lista de verificación del equipo indica que solo debe encenderse un vaporizador a la vez.
