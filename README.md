@@ -30,14 +30,14 @@ Comprender el funcionamiento de una máquina de anestesia y la relevancia de su 
 
 #### b. Válvula APL
 
-<img width="800" height="1200" alt="image" src="https://github.com/user-attachments/assets/95109393-3c8b-470d-a6bf-0de0f27cfd5e" />
+<img width="500" height="700" alt="image" src="https://github.com/user-attachments/assets/95109393-3c8b-470d-a6bf-0de0f27cfd5e" />
 
 - **Ubicación:** perilla gris rotulada "APL" con escala en cmH₂O, sobre el módulo del sistema respiratorio, junto a la palanca negra selectora de modo manual/mecánico y al manómetro de presión de vía aérea.
 - **Función:** limita la presión máxima en el circuito durante la ventilación manual o espontánea. Cuando la presión supera el valor fijado, el gas excedente se libera hacia el sistema de evacuación de gases (AGSS). Con la perilla abierta (valor mínimo) el paciente respira espontáneamente; al cerrarla parcialmente se puede asistir la ventilación con la bolsa.
 
 #### c. Recipiente absorbente de CO₂
 
-<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/af1d3c92-fa7f-454c-9b6d-40f0dc1f466d" />
+<img width="500" height="700" alt="image" src="https://github.com/user-attachments/assets/af1d3c92-fa7f-454c-9b6d-40f0dc1f466d" />
 
 - **Ubicación:** recipiente transparente bajo el módulo del sistema respiratorio, con una línea de nivel **MAX**.
 - **Función:** contiene el absorbente (cal sodada) que retira el CO₂ espirado por el paciente. Esto permite reutilizar el gas del circuito (sistema circular) sin acumular CO₂. La reacción global es:
@@ -46,7 +46,7 @@ $$\mathrm{CO_2 + Ca(OH)_2 \rightarrow CaCO_3 + H_2O + calor}$$
 
 #### d. Fuelle
 
-<img width="800" height="1200" alt="image" src="https://github.com/user-attachments/assets/5dcf577e-1177-4bfc-8fe2-ec035b95b0aa" />
+<img width="500" height="700" alt="image" src="https://github.com/user-attachments/assets/5dcf577e-1177-4bfc-8fe2-ec035b95b0aa" />
 
 - **Ubicación:** dentro de la campana transparente graduada (300 a 1500 mL) en la parte superior del sistema respiratorio.
 - **Función:** en ventilación mecánica, el gas impulsor comprime el fuelle desde el exterior y este entrega el volumen corriente al paciente, manteniendo separados el gas impulsor y el gas del paciente. En la espiración el fuelle se rellena con el gas espirado. La escala de la campana permite estimar visualmente el volumen entregado.
