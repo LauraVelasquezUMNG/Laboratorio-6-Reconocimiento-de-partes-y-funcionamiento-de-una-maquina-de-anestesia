@@ -264,4 +264,7 @@ Las máquinas de anestesia concentran en un solo equipo el suministro de gases, 
 
 [5] StatPearls Publishing, "Topical, Local, and Regional Anesthesia and Anesthetics", en *StatPearls [Internet]*. Treasure Island (FL): StatPearls Publishing. [En línea]. Disponible en: https://ncbi.nlm.nih.gov/books/NBK430894.
 
+[6] Shenzhen Mindray Bio-Medical Electronics Co., Ltd., *Máquina de Anestesia WATO EX-20 – Manual do Operador*, 2009. [En línea]. Disponible en: https://cleanmedical.com.br/wp-content/uploads/2023/06/Manual-Usuario_Aparelho-Anestesia_Mindray-WATO-EX-20.pdf.
+
+[7] American Society of Anesthesiologists, "Types of Anesthesia". [En línea]. Disponible en: https://madeforthismoment.asahq.org/anesthesia-101/types-of-anesthesia/.
 
