@@ -15,6 +15,80 @@ Comprender el funcionamiento de una máquina de anestesia y la relevancia de su 
 - Describir el recorrido de los gases desde su suministro hasta el paciente, y los modos de operación del ventilador, a partir de la consulta de los manuales del equipo.
 - Analizar las fallas que pueden presentarse en cada subsistema y sus causas, y reconocer cómo las labores de inspección y mantenimiento ayudan a prevenirlas.
 
+> ### Parte A
+
+### 1. Revisión de la literatura
+
+#### a. Tipos de anestesia que se aplican durante una cirugía
+
+Se reconocen **cuatro tipos** principales. La ASA los entiende como un continuo, ya que durante un procedimiento el paciente puede pasar de un nivel de sedación a otro más profundo [7].
+
+| Tipo | En qué consiste | Estado del paciente | Uso típico |
+|---|---|---|---|
+| **General** | Combina fármacos intravenosos (inducción) y agentes inhalatorios (mantenimiento), estos últimos administrados por la máquina de anestesia a través del vaporizador. Requiere manejo de la vía aérea y soporte ventilatorio. | Inconsciente y sin respuesta al dolor | Cirugía mayor (abdominal, cardiaca, reemplazos articulares) |
+| **Regional** | Se inyecta un anestésico local cerca de un nervio o grupo de nervios para bloquear la sensibilidad de una región. Incluye la anestesia neuroaxial (raquídea y epidural) y los bloqueos de nervio periférico. | Consciente o con sedación | Cesáreas, cirugía de miembros inferiores o superiores |
+| **Local** | Se infiltra el anestésico directamente en el sitio quirúrgico, en un área pequeña. | Consciente | Procedimientos menores (suturas, lesiones de piel) |
+| **Sedación / cuidado anestésico monitorizado (MAC)** | Fármacos intravenosos que relajan y disminuyen la conciencia, a menudo junto con anestesia local o regional, con monitorización continua. | Desde despierto y relajado hasta sedación profunda | Endoscopias, colonoscopias, procedimientos cortos |
+
+La máquina de anestesia es indispensable en la anestesia general, porque además de entregar el agente inhalatorio debe oxigenar y ventilar al paciente. En los demás tipos se usa como fuente de O₂ y de soporte ventilatorio de respaldo.
+
+#### b. Gases con los que trabaja la máquina y su función
+
+La WATO EX-20 trabaja con **O₂, N₂O y aire** [6]. A la mezcla de estos gases (gas fresco) se le añade el vapor del agente halogenado en el vaporizador.
+
+| Gas | Función |
+|---|---|
+| **O₂** | Gas vital: asegura la oxigenación del paciente como componente principal del gas fresco. Es además el **gas motriz** del ventilador (comprime el fuelle) y alimenta la **descarga de O₂ (O₂ flush)** [1]. |
+| **N₂O** | Agente anestésico y analgésico de baja potencia que reduce la cantidad necesaria de halogenado. Por seguridad, el enlace O₂-N₂O mantiene la concentración de O₂ en la mezcla por encima del 25 % [6], y el N₂O se corta automáticamente si la presión de suministro de O₂ baja de unos 0.1 MPa [1]. |
+| **Aire** | Gas portador o diluyente: permite bajar la FiO₂ sin usar N₂O, lo que limita la exposición a concentraciones altas de O₂. |
+
+**Ingreso por alta presión.** Los gases llegan a la máquina por dos vías [1]:
+
+- **Tubería (red central):** presión intermedia, de 280 a 600 kPa.
+- **Cilindros (sistema de alta presión):** O₂, aire y N₂O pueden conectarse por cilindro mediante el yugo (*yoke*). El O₂ y el aire se almacenan entre 6.9 y 15 MPa y el N₂O entre 4.2 y 6 MPa. Un regulador reduce esta presión a unos 400 kPa, y una segunda etapa la lleva a unos 200 kPa antes de los flujómetros.
+
+Los manómetros de alta presión del panel muestran la presión del cilindro antes del regulador [6]. Si la presión de O₂ cae por debajo de unos 200 kPa, el ventilador activa la alarma de falla de suministro de O₂ [1].
+
+#### c. Sistema de respiración y partes esterilizables en autoclave
+
+El sistema de respiración es el **circuito cerrado (circular)** que conecta al paciente con la máquina [1]. Recibe el gas fresco con el anestésico, lo entrega al paciente, recoge el gas espirado, retira el CO₂ en el absorbente y lo devuelve al circuito para reutilizarlo. Así se ahorra gas y agente anestésico y se conservan el calor y la humedad del gas. Permite ventilar al paciente de tres formas: espontánea, manual (bolsa y válvula APL) y mecánica (fuelle accionado por el ventilador). El gas sobrante sale hacia el sistema de evacuación (AGSS).
+
+Sus componentes principales son [1]:
+
+- Recipiente absorbente de CO₂ y fuelle con su campana.
+- Bolsa manual, válvula APL e interruptor bolsa/ventilador.
+- Válvulas unidireccionales inspiratoria y espiratoria.
+- Sensor de O₂, sensores de flujo inspiratorio y espiratorio, y sensor de presión de vía aérea.
+
+Según el manual de servicio, el sistema de respiración se desmonta con facilidad y es autoclavable a 134 °C [1]. El manual del operador especifica qué piezas admiten este proceso [6]:
+
+|  Se pueden autoclavar | No se deben autoclavar |
+|---|---|
+| Fuelle (121 °C por 20 min o 134 °C por 7 min) | Sensor de O₂ |
+| Campana del fuelle | Manómetro de presión de la vía aérea |
+| Válvulas de retención inspiratoria y espiratoria, con sus tapas | Sensores de flujo (salvo la versión autoclavable) |
+| Recipiente absorbente de CO₂ (sin la cal sodada) | AGSS |
+| Tubos respiratorios y pieza en Y | Tubos y frasco del sistema de succión |
+| Brazo de la bolsa y copa colectora de agua | |
+
+Los componentes autoclavables soportan como máximo 134 °C durante 20 min [6]. La cal sodada no se esteriliza: se desecha y se reemplaza.
+
+#### d. Submenús del ventilador y pausa inspiratoria
+
+La pantalla del ventilador tiene **cuatro teclas de acceso directo a menús** [6]:
+
+| Submenú | En qué consiste |
+|---|---|
+| **[Modo vent.]** | Selecciona el modo de ventilación mecánica y ajusta sus parámetros. La EX-20 ofrece **VCV** (modo por defecto) y **PCV** (opcional). La ventilación manual/espontánea se selecciona con el interruptor bolsa/ventilador, no desde este menú. |
+| **[Config. alarmas]** | Ajusta los límites alto y bajo de las alarmas del ventilador (presión de vía aérea, volumen minuto, FiO₂, etc.) desde el submenú [Ventilador >>]. |
+| **[Config. usuario]** | Configura la fuente de monitorización de O₂, el módulo de gas, la pantalla y el sonido (p. ej., volumen de alarmas). |
+| **[Mantenimiento]** | Ejecuta la prueba de fugas y de cumplimiento del sistema, la calibración de los sensores de flujo y la calibración del sensor de O₂ (21 % y 100 %). También permite cambiar el idioma y la hora. |
+
+Además, la tecla **Menú** abre el menú principal o cierra los menús abiertos, y la tecla **Espera (Standby)** pone el equipo en espera o lo saca de ella [6].
+
+**Pausa inspiratoria.** Se activa en **[Modo vent.] VCV**, con el parámetro **[TIP:TI]** (meseta o plateau inspiratorio). Este parámetro fija la pausa como porcentaje del tiempo inspiratorio: puede estar apagado o ir de 5 a 60 %, en pasos de 5 % [6]. La pausa mejora la distribución del gas en el pulmón. En PCV no existe este parámetro: allí se ajusta [Tslope], el tiempo que tarda en alcanzarse la presión objetivo [6].
+
+
 > ### Parte B
 
 ### 1. Identificación y ubicación de partes
