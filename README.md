@@ -80,7 +80,7 @@ La pantalla del ventilador tiene **cuatro teclas de acceso directo a menús** [6
 | Submenú | En qué consiste |
 |---|---|
 | **[Modo vent.]** | Selecciona el modo de ventilación mecánica y ajusta sus parámetros. La EX-20 ofrece **VCV** (modo por defecto) y **PCV** (opcional). La ventilación manual/espontánea se selecciona con el interruptor bolsa/ventilador, no desde este menú. |
-| **[Config. alarmas]** | Ajusta los límites alto y bajo de las alarmas del ventilador (presión de vía aérea, volumen minuto, FiO₂, etc.) desde el submenú [Ventilador >>]. |
+| **[Config. alarmas]** | Ajusta los límites alto y bajo de las alarmas del ventilador (presión de vía aérea, volumen minuto, FiO₂, etc.) desde el submenú [Ventilador]. |
 | **[Config. usuario]** | Configura la fuente de monitorización de O₂, el módulo de gas, la pantalla y el sonido (p. ej., volumen de alarmas). |
 | **[Mantenimiento]** | Ejecuta la prueba de fugas y de cumplimiento del sistema, la calibración de los sensores de flujo y la calibración del sensor de O₂ (21 % y 100 %). También permite cambiar el idioma y la hora. |
 
